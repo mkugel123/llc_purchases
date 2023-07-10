@@ -36,7 +36,7 @@ function App() {
   return (
     <div className="App">
       <button onClick={handleClick}>Refresh</button>
-      {loading ? <progress></progress> : <h5>Last Refreshed {properties[0].date_on_deed}</h5>}
+      {loading ? <progress></progress> : <h5></h5>}
       {propertyCards}
     </div>
   );
